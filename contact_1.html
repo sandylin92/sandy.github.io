@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-form1.css">
+</head>
+<body>
+  <!-- 導覽列開始 -->
+    <header id="header" class="clearfix">
+       <div class="container">
+         <nav>
+           <div id="logo">
+             <a href="">
+               <img src="images/logo.png" alt="logo" width="120" height="100">
+             </a>
+           </div>
+
+           <ul class="nav">
+             <li><a href="">home</a></li>
+             <li><a href="">about</a></li>
+             <li><a href="">work</a></li>
+             <li><a href="">contact</a></li>
+           </ul>
+
+         </nav>
+       </div>
+    </header>
+  <!-- 導覽列結束 -->
+
+
+  <!-- Contact form -->
+  <aside>
+    <h1 id="clr">LETS WORK TOGETHER</h1>
+    <h4 id="contact">If you would like to work with me, please email me at <em>b810521@gmail.com</em></h4>
+
+  </aside>
+  <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbyfAJNnQjxHtG45R9lmUakHHzm9-TEQGFNUSy28NjLVGsHtJSE/exec">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Enter your first name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="lastname" placeholder="Enter your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Your.name@email.com">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Details</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Your message here..." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+  </form>
+
+
+  <h4 id="logofooter3">I will get back to you within 1-5 days</h4>
+
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
