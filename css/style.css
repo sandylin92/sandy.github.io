@@ -33,7 +33,6 @@ a, a:hover, a:focus {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  display:block;
 }
 
 
@@ -55,17 +54,25 @@ section {
   padding: 100px 0;
 }
 
+
+/*navbar*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 20px;
+}
+
 /*header 的 positon 是設定為 fixed ，position: fixed; 的元素它會停留在一個固定的位置，但是不會在頁面上佔有空間*/
 #logo {
   float:left;
   width:150px;
 }
 
+
 .nav{
   float:right;
 }
 .navbar{
-  padding: 10px 10px;
+  padding: 10px 0px;
   margin:0px;
 }
 
@@ -196,14 +203,12 @@ h2 {
 }
 
 
-.button-group .download_cv,  {
-  display: inline-block;
-}
-
 .button-group .download_cv {
   margin: 30px auto;
   margin-right: 18px;
+  display: inline-block;
 }
+
 
 .button-group a {
   display: block;
@@ -232,7 +237,7 @@ h2 {
   text-transform: lowercase;
 }
 .slogan:first-letter{
-  text-transform: uppercase;
+  text-transform: uppercase;/*sologan首字大寫*/
 }
 
 .overlay_2 {
@@ -245,14 +250,11 @@ h2 {
 
 
 /*----------------------------------latest work-------------------------*/
-.works {
-  background-color: #f7f7f7;
-}
 
-.col-work {
-  float: left;
-  width: 33.3333333333%;
-  padding: 0 15px;
+.col-work{
+opacity: 1; 
+transition: all ease 0.5s;
+background-color: rgba(240,138,5,0.9);
 }
 
 .col-work a {
@@ -266,38 +268,28 @@ h2 {
   transition: .2s linear;
   top: 0;
   left: 0;
-
-
-}
-.col-work{
-opacity: 1; 
-transition: all ease 0.5s;
-background-color: rgba(240,138,5,0.9);
 }
 
-.portfolio-caption:hover {
-
-}
 .col-work a:hover {
   box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
   top: -5px;
 }
 /*----------------------------------latest work end-------------------------*/
 
-
+/*
   .col-left,.col-right{
       width: 50%;
   }
-
+*/
   .avatar>img{
       width: 85%;
   }
 
-  .col-work{
+/*  .col-work{
       width: 32%;
       margin-bottom: 20px;
   }
-
+*/
 
 /*contact*/
 
@@ -405,7 +397,6 @@ footer {
 
 .footer-social-icon a i {
   color: #fff;
-  display: inline-block;
   font-size: 20px;
   line-height: 20px;
   margin-top: 15px;
