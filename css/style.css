@@ -65,6 +65,7 @@ section {
 #logo {
   float:left;
   width:150px;
+  padding-left: 30px;
 }
 
 
@@ -91,6 +92,14 @@ section {
 
 .nav-details{
   padding-right:20px;
+}
+
+.navbar-toggle {
+    padding-right:  30px;
+}
+
+div#bs-example-navbar-collapse-1 {
+    padding-right: 25px;
 }
 
 .home_bg {
@@ -291,17 +300,46 @@ background-color: rgba(240,138,5,0.9);
   }
 */
 
-/*contact*/
+/*latest work*/
+.latest-work{
+  padding-top:20px;
+}
 
-.contact{
-  padding-top: 50px;
+section#portfolio {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+/*contact*/
+.row{
+padding-top: 100px;
 }
 .background{
   background-image: url(../images/1.jpg);
   background-position: center;
 }
 
+.carousel-inner{
+  padding:100px 0;
+}
+
+.project-details{
+  font-size: 18px;
+  margin-top: 10px;
+}
 section#contact{
+  padding-top:0px;
   padding-bottom:0px;
 
 }
