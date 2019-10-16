@@ -306,6 +306,7 @@ padding-top: 100px;
 .background{
   background-image: url(../images/1.jpg);
   background-position: center;
+  background-size: cover;/*讓背景圖隨著瀏覽視窗縮放*/
 }
 
 .carousel-inner{
