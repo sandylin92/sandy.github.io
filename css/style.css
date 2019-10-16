@@ -17,7 +17,13 @@ body {
   box-sizing: border-box;
 }
 
+.container-fluid {
+  padding:0;
+}
 
+.navbar-fixed-top{
+  position:sticky;
+}
 
 h1, h3, h4, h5, h6, p {
   margin: 0px;
