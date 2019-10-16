@@ -19,9 +19,19 @@ body {
 
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h3, h4, h5, h6, p {
   margin: 0px;
   padding: 0px;
+}
+
+h2{
+ margin-bottom: 75px;
+ text-align: center;
+ font-size: 40px;
+ line-height: 50px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ padding-top: 40px;
 }
 
 .title{
@@ -47,13 +57,6 @@ img {
   display: block;
 }
 
-/*
-.container {
-  width: 85%;
-  max-width: 1170px;
-  margin: 0 auto;/*使用auto-margin的方法置中*/
-/*  position: relative;
-}*/
 
 section {
   padding: 100px 0;
@@ -179,14 +182,13 @@ div#bs-example-navbar-collapse-1 {
   clear: both; /*一次清除 float: left 和 float: right的浮動*/
 }
 
-h2 {
+.contact-heading{
   margin-bottom: 75px; /*h2 標題將下方元素推開 75px*/
   text-align: center;
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-top: 40px;
 }
 
 
@@ -358,6 +360,11 @@ section#contact .form-group textarea.form-control {
 
 .form {
     margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: rgba(256,256,256,0.4);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
 }
 
 
