@@ -1,7 +1,8 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden;/*防止視窗頁面右邊留白*/
+  min-width: 600px;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 }
 
 .navbar-fixed-top{
-  position:sticky;
+  position:sticky;/*防止導覽列超出html頁面*/
 }
 
 h1, h3, h4, h5, h6, p {
@@ -31,17 +32,19 @@ h1, h3, h4, h5, h6, p {
 }
 
 h2{
- margin-bottom: 75px;
+ margin-bottom: 30px;
  text-align: center;
  font-size: 40px;
  line-height: 50px;
  text-transform: uppercase;
- letter-spacing: 2px;
- padding-top: 40px;
+ letter-spacing: 2px; 
+ padding-top: 40px;
 }
 
 .title{
 font-family: 'Emilys Candy', cursive;
+ padding-left:10px;
+ padding-right:10px;
 }
 
 ul, ol {
@@ -61,6 +64,7 @@ img {
   height: auto;
   width: 85%;
   display: block;
+  margin: auto;/*圖片水平至中*/
 }
 
 
@@ -224,6 +228,7 @@ div#bs-example-navbar-collapse-1 {
   text-align: justify;
   margin: 0 auto;
   padding:0 5px;
+
 }
 
 .skill {
@@ -279,6 +284,13 @@ div#bs-example-navbar-collapse-1 {
 
 /*----------------------------------latest work-------------------------*/
 
+.picture{
+  margin-bottom: 20px;
+}
+
+.intro{
+  margin-top:10px;
+}
   .avatar>img{
      width: 90%;
   }
@@ -319,6 +331,12 @@ padding-top: 100px;
 
 .carousel-inner{
   padding:100px 0;
+}
+
+.project-details-heading{
+  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: underline;
 }
 
 .project-details{
@@ -371,6 +389,7 @@ section#contact .form-group textarea.form-control {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
+    min-width: 340px; /*防止contact-heading文字超出form表單*/
 }
 
 
