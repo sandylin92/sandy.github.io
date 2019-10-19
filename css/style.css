@@ -1,6 +1,6 @@
 html{
-  overflow-x: hidden;/*防止視窗頁面右邊留白*/
   height: 100%;
+  overflow-x: hidden;/*防止視窗頁面右邊留白*/
 }
 
 body {
@@ -11,9 +11,9 @@ body {
   color: #333;
   background-color: #fff;
   width: 100%;
-/*  min-height: 100%; */
-  overflow-x: hidden;/*防止視窗頁面右邊留白*/
+  min-height: 100%;
   min-width: 600px;/*限制網頁最小視窗寬度*/
+  overflow-x: hidden;/*防止視窗頁面右邊留白*/
 }
 
 * {
@@ -24,9 +24,6 @@ body {
   padding:0;
 }
 
-.navbar-fixed-top{
-  position:sticky;/*防止導覽列超出html頁面*/
-}
 
 h1, h3, h4, h5, h6, p {
   margin: 0px;
@@ -206,13 +203,13 @@ div#bs-example-navbar-collapse-1 {
 
 .avatar img{
   margin:0 auto;
+  margin-top: 5px;
   height: auto;
   width: auto;
   margin-bottom: 20px;
 }
 
 .personal-info h3,.skill h3 {
-  font-size: 20px;
   letter-spacing: 2px;
   margin: 5px auto;
   text-transform: capitalize;
@@ -224,7 +221,7 @@ div#bs-example-navbar-collapse-1 {
 }
 
 .personal-info p,.skill p,.skill li {
-  font-size: 18px;
+  font-size: 20px;
   color: #767676;
   line-height: 24px;
   text-align: justify;
